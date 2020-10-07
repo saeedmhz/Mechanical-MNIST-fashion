@@ -11,6 +11,7 @@ The full Mechanical MNIST - fashion dataset can be downloaded from <link forthco
 This code is idential to the Mechanical MNIST simulation code (https://github.com/elejeune11/Mechanical-MNIST/tree/master/generate_dataset) with two exceptions:
 * the input pattern bitmap is from the Fashion MNIST dataset
 * the maximum Young's modulus is 25 units in this code (it is 100 in the original Mechanical MNIST dataset) 
+The file ``fashion_MNIST.py'' corresponds to the Uniaxial Extension (UE) load case while the file ``fashion_MNIST_EE.py'' corresponds to the Equibiaxial Extension (EE) load case. 
 
 Sample input bitmaps are included in the folder. All simulations are conducted with the FEniCS computing platform (https://fenicsproject.org).
 
@@ -28,6 +29,7 @@ THE SOFTWARE IS PROVIDED “AS IS”, WITHOUT WARRANTY OF ANY KIND, EXPRESS OR I
 
 ## 2) code to import the data into python 
 
+In https://github.com/elejeune11/Mechanical-MNIST-fashion/tree/main/plot_data in ``plot_data.py'' we show how to import the files into python (100 samples of test and training data for UE are given in ``example_outputs''). Then we show how to plot the data. 
 
 # Additional information
 
