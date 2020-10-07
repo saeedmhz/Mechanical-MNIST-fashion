@@ -8,8 +8,9 @@ The full Mechanical MNIST - fashion dataset can be downloaded from <link forthco
 
 ## 1) the code to generate the dataset
 
-
-
+This code is idential to the Mechanical MNIST simulation code with two exceptions:
+* the input pattern bitmap is from the Fashion MNIST dataset
+* the maximum Young's modulus is 25 units in this code (it is 100 in the original Mechanical MNIST dataset) 
 
 ## 
 Note -- the original Fashion MNIST dataset is available here: https://github.com/zalandoresearch/fashion-mnist
